@@ -17,7 +17,7 @@ async function main() {
     );
 
 
-    naylor.ev.on('messages.upsert', ({ type, messages }) => async (M){
+    naylor.ev.on('messages.upsert', ({ type, messages }) => {
 
         if (type == "notify") { // new messages
             for (const M of messages) {
