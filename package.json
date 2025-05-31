@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "os": "^0.1.2",
+    "qrcode": "^1.5.4"
+  }
+}
